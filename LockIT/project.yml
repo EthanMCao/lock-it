@@ -1,0 +1,36 @@
+name: LockIT
+options:
+  minimumXcodeGenVersion: 2.37.0
+  xcodeVersion: "15.0"
+  deploymentTarget:
+    macOS: 13.0
+packages:
+  ZIPFoundation:
+    url: https://github.com/weichsel/ZIPFoundation
+    from: 0.9.0
+targets:
+  LockIT:
+    type: application
+    platform: macOS
+    deploymentTarget: "13.0"
+    sources:
+      - path: .
+        excludes:
+          - project.yml
+          - README.md
+    info:
+      path: Resources/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ethan.LockIT
+        CODE_SIGN_ENTITLEMENTS: Resources/LockIT.entitlements
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION: YES
+        DEVELOPMENT_TEAM: ""
+      debug:
+        CODE_SIGN_IDENTITY: "-"
+    entitlements:
+      path: Resources/LockIT.entitlements
+    dependencies:
+      - package: ZIPFoundation
+
