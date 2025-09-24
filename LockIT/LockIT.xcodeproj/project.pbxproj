@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		139A40C42DE589DA9EA4E5C6 /* FolderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BF5FC9968B77720B9DE085 /* FolderListViewModel.swift */; };
+		349E06C5E6459705898794A8 /* FolderLockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD78832855B3FF19386C604 /* FolderLockService.swift */; };
+		48E116968EE49ECA6D00DE18 /* ArchiveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC656305391499D0671BEA8 /* ArchiveService.swift */; };
+		6C213199E99B09956DB4CB4F /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9EA5A4C7A5B0F70ECA5693 /* KeychainService.swift */; };
+		853ED5876CDA370B9CA9BE7B /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = FD434597A4A408DBA9AEFA48 /* ZIPFoundation */; };
+		8A1CA2DEC47ED473E4D22C0F /* LockIT.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 9242CF6D76672A32F939B32C /* LockIT.xcodeproj */; };
+		958F9B622E8EF4FE2760BA96 /* PreferencesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA3BAFD064225F11CD7C2B /* PreferencesService.swift */; };
+		B05FB9C5A124D83814067D17 /* SecureDeleteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C062C280D1FFC1EE3DAC158 /* SecureDeleteService.swift */; };
+		B7A7FD05A3068CD471CDD350 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77547C6C0EA49AB7372A5363 /* CryptoService.swift */; };
+		B8DA13CAAEE39309842D9322 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F0ACCC22238BAD1D3D6BA0 /* ContentView.swift */; };
+		C62DB7FDA6E1AC28D2B90324 /* BiometryAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBBBC1E52E255C327BDF87 /* BiometryAuth.swift */; };
+		D260BCED2F1AB6B4AAAF1053 /* LockITApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF550316360E2C52A0C0C1E /* LockITApp.swift */; };
+		D65078BF5681A8B1D51FF79A /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE384C6C274079A670AFA3C /* StatusBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C062C280D1FFC1EE3DAC158 /* SecureDeleteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureDeleteService.swift; sourceTree = "<group>"; };
+		0CD78832855B3FF19386C604 /* FolderLockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderLockService.swift; sourceTree = "<group>"; };
+		0FA752215A2AB7C8268969C2 /* LockIT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LockIT.entitlements; sourceTree = "<group>"; };
+		33F0ACCC22238BAD1D3D6BA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FB2421D4D17FD0E91776376 /* LockIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE384C6C274079A670AFA3C /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		4CF550316360E2C52A0C0C1E /* LockITApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockITApp.swift; sourceTree = "<group>"; };
+		66EBBBC1E52E255C327BDF87 /* BiometryAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometryAuth.swift; sourceTree = "<group>"; };
+		6DC656305391499D0671BEA8 /* ArchiveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveService.swift; sourceTree = "<group>"; };
+		77547C6C0EA49AB7372A5363 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		87AA3BAFD064225F11CD7C2B /* PreferencesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesService.swift; sourceTree = "<group>"; };
+		9242CF6D76672A32F939B32C /* LockIT.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LockIT.xcodeproj; sourceTree = "<group>"; };
+		A62F1EAF06F907BC52FB3577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A8BF5FC9968B77720B9DE085 /* FolderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderListViewModel.swift; sourceTree = "<group>"; };
+		AE9EA5A4C7A5B0F70ECA5693 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE8BFCEB4BB0658B6C6908A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853ED5876CDA370B9CA9BE7B /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050FC2B810000532F3EE93FD /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				4BE384C6C274079A670AFA3C /* StatusBarController.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+		1D2A3FC86BFCD35628E5D78F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6DC656305391499D0671BEA8 /* ArchiveService.swift */,
+				66EBBBC1E52E255C327BDF87 /* BiometryAuth.swift */,
+				77547C6C0EA49AB7372A5363 /* CryptoService.swift */,
+				0CD78832855B3FF19386C604 /* FolderLockService.swift */,
+				AE9EA5A4C7A5B0F70ECA5693 /* KeychainService.swift */,
+				87AA3BAFD064225F11CD7C2B /* PreferencesService.swift */,
+				0C062C280D1FFC1EE3DAC158 /* SecureDeleteService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3607BF0C4F5BD2F8E409A5C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB2421D4D17FD0E91776376 /* LockIT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6581E9BD488B92DA1AE75B07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A62F1EAF06F907BC52FB3577 /* Info.plist */,
+				0FA752215A2AB7C8268969C2 /* LockIT.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		825FEA9E14FD57BFF0A76E65 /* LockIT */ = {
+			isa = PBXGroup;
+			children = (
+				9242CF6D76672A32F939B32C /* LockIT.xcodeproj */,
+				4CF550316360E2C52A0C0C1E /* LockITApp.swift */,
+			);
+			name = LockIT;
+			path = .;
+			sourceTree = "<group>";
+		};
+		842F30D22D0B5D34CDB59975 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF5FC9968B77720B9DE085 /* FolderListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		873DA90DBD9B0A4F812F549C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33F0ACCC22238BAD1D3D6BA0 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2E5F994233220E81BD6C274 = {
+			isa = PBXGroup;
+			children = (
+				825FEA9E14FD57BFF0A76E65 /* LockIT */,
+				050FC2B810000532F3EE93FD /* MenuBar */,
+				6581E9BD488B92DA1AE75B07 /* Resources */,
+				1D2A3FC86BFCD35628E5D78F /* Services */,
+				842F30D22D0B5D34CDB59975 /* ViewModels */,
+				873DA90DBD9B0A4F812F549C /* Views */,
+				3607BF0C4F5BD2F8E409A5C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7665DD2E88C184000EA955 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05298893C2E189A1B1FD2F14 /* LockIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415310359FE32441BB28EF96 /* Build configuration list for PBXNativeTarget "LockIT" */;
+			buildPhases = (
+				4FDA50616DB24CC1715702E3 /* Sources */,
+				C059C5A726D97DEAF0253C50 /* Resources */,
+				FE8BFCEB4BB0658B6C6908A8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockIT;
+			packageProductDependencies = (
+				FD434597A4A408DBA9AEFA48 /* ZIPFoundation */,
+			);
+			productName = LockIT;
+			productReference = 3FB2421D4D17FD0E91776376 /* LockIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		367978BF6FC0FE150167366C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					05298893C2E189A1B1FD2F14 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BC3E1981507890272EF00ECD /* Build configuration list for PBXProject "LockIT" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A2E5F994233220E81BD6C274;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5253725FF0B8DBA05211624C /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AA7665DD2E88C184000EA955 /* Products */;
+					ProjectRef = 9242CF6D76672A32F939B32C /* LockIT.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				05298893C2E189A1B1FD2F14 /* LockIT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C059C5A726D97DEAF0253C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1CA2DEC47ED473E4D22C0F /* LockIT.xcodeproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FDA50616DB24CC1715702E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E116968EE49ECA6D00DE18 /* ArchiveService.swift in Sources */,
+				C62DB7FDA6E1AC28D2B90324 /* BiometryAuth.swift in Sources */,
+				B8DA13CAAEE39309842D9322 /* ContentView.swift in Sources */,
+				B7A7FD05A3068CD471CDD350 /* CryptoService.swift in Sources */,
+				139A40C42DE589DA9EA4E5C6 /* FolderListViewModel.swift in Sources */,
+				349E06C5E6459705898794A8 /* FolderLockService.swift in Sources */,
+				6C213199E99B09956DB4CB4F /* KeychainService.swift in Sources */,
+				D260BCED2F1AB6B4AAAF1053 /* LockITApp.swift in Sources */,
+				958F9B622E8EF4FE2760BA96 /* PreferencesService.swift in Sources */,
+				B05FB9C5A124D83814067D17 /* SecureDeleteService.swift in Sources */,
+				D65078BF5681A8B1D51FF79A /* StatusBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2DECE44C5EBF9DCEBE870497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3E891C416E555717CA9124EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C9877F570DD7903845CA3ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = Resources/LockIT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.LockIT;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F43F5D11C631E27E218A9D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = Resources/LockIT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.LockIT;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		415310359FE32441BB28EF96 /* Build configuration list for PBXNativeTarget "LockIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9877F570DD7903845CA3ACA /* Debug */,
+				F43F5D11C631E27E218A9D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BC3E1981507890272EF00ECD /* Build configuration list for PBXProject "LockIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E891C416E555717CA9124EE /* Debug */,
+				2DECE44C5EBF9DCEBE870497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5253725FF0B8DBA05211624C /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD434597A4A408DBA9AEFA48 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5253725FF0B8DBA05211624C /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 367978BF6FC0FE150167366C /* Project object */;
+}
